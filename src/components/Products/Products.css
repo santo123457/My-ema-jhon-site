@@ -1,0 +1,29 @@
+.products{
+    display: flex;
+    border-bottom:1px solid lightgray;
+    padding:10px
+}
+
+.products h4{
+    color: blue;
+}
+.product-name{
+    margin-right: 20px;
+}
+.product-price{
+    margin-top: 20px;
+}
+.cart-btn{
+    background-color: rgb(255, 176, 29);
+    width: 150px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+
+}
+.cart-btn:focus{
+    outline-style: none;
+    
+}
